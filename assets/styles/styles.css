@@ -91,6 +91,23 @@ a {
   max-width: 600px;
   margin: 0 auto;
 }
+.carousel-wrapper{
+    
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
 .carousel-item{
   height: auto;
   max-height: 300px;
@@ -189,6 +206,15 @@ a {
 }
 
 /* proyectos */
+
+.bt{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.card{
+  margin: 20px;
+}
 .proyectoTitle {
   color: black;
   text-align: center;
@@ -198,25 +224,6 @@ a {
 }
 .trabajo1{
   margin: 7px;
-}
-.fotoproyecto1 {
-  width: 290px;
-  border-radius: 4px;
-  float: right;
-  margin-right: 10px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.fotoproyecto2 {
-  width: 290px;
-  border-radius: 4px;
-  float: right;
-  margin-right: 1px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .trabajoDiv {
