@@ -1,0 +1,50 @@
+h1 {
+    color: #000000;
+  }
+  
+  .frase {
+    width: 300px;
+    color: #000000;
+  }
+  body {
+    background-color: #ffffffb6;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .hero__wave {
+    background-image: url("../img/fotohome1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 600px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .first-container {
+    background-color: black;
+    color: white;
+    padding: 50px 100px;
+      h2{
+        margin: 0;
+      }
+  }
+  .text-container {
+    padding: 50px;
+    color: white;
+    h1{
+      color: white;
+    font-style: italic;
+    }
+    h2{
+      color: white;
+      font-style: italic;
+    }
+  }
+  /* NAVBAR */ 
+  .navbar-custom {
+    background-color: #000000;
+  }
+  
