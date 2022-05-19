@@ -9,9 +9,20 @@
     display: flex;
     justify-content: space-around;
     padding-left: 100px;
-        iconoRedes{
+        .iconoRedes{
             width: 100px;
             height: 100px;
             }
         }
-  
+  // mapas
+  $redes: (
+    instagram: #c70570,
+    facebook: #0603bb,
+    whatsapp: #008800,
+  );
+
+  @each $red, $color in $redes {
+    .red-#{$red} {
+      color: $color;
+    }
+  }

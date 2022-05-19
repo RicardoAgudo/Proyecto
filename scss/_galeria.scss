@@ -3,7 +3,15 @@
     color: $color-primary;
     text-align: center;
   }
-
+  .sub-paginas{
+    color: $color-primary;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .gallery-subprimario {
+    @extend .sub-paginas
+  }
   .carousel-wrapper {
     padding: 30px 40px;
     display: flex;

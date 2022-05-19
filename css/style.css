@@ -11,7 +11,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
 
 .hero__wave {
-  background-image: url("../img/fotohome1.jpg");
+  background-image: url("../assets/img/fotohome1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left;
@@ -45,6 +45,12 @@ a {
 .title {
   color: #000000;
   text-align: center; }
+
+.sub-paginas, .gallery-subprimario {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto; }
 
 .carousel-wrapper {
   padding: 30px 40px;
@@ -89,10 +95,23 @@ a {
   display: flex;
   justify-content: space-around;
   padding-left: 100px; }
-  .redesSociales iconoRedes {
+  .redesSociales .iconoRedes {
     width: 100px;
     height: 100px; }
+
+.red-instagram {
+  color: #c70570; }
+
+.red-facebook {
+  color: #0603bb; }
+
+.red-whatsapp {
+  color: #008800; }
 
 .title {
   color: #000000;
   text-align: center; }
+
+.boton {
+  height: 50px;
+  width: 50px; }

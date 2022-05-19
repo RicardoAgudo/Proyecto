@@ -5,6 +5,7 @@ h1 {
   .frase {
     width: 300px;
     color: #000000;
+    
   }
   body {
     background-color: #ffffffb6;
@@ -12,7 +13,7 @@ h1 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .hero__wave {
-    background-image: url("../img/fotohome1.jpg");
+    background-image: url("../assets/img/fotohome1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center left;
@@ -43,6 +44,8 @@ h1 {
       font-style: italic;
     }
   }
+
+
   /* NAVBAR */ 
   .navbar-custom {
     background-color: #000000;

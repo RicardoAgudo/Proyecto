@@ -2,4 +2,12 @@
     color: $color-primary;
     text-align: center;
   }
-  
+  @mixin size ($alto, $ancho) {
+   height: $alto;
+   width: $ancho;
+  }
+    
+  .boton{
+    @include size(50px,50px)
+
+  }
