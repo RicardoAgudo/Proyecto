@@ -6,7 +6,7 @@ h1 {
   color: #000000; }
 
 body {
-  background-color: #ffffffb6;
+  background-color: #06113C;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
 
@@ -22,7 +22,7 @@ a {
   color: black; }
 
 .first-container {
-  background-color: black;
+  background-color: #06113C;
   color: white;
   padding: 50px 100px; }
   .first-container h2 {
@@ -40,7 +40,7 @@ a {
 
 /* NAVBAR */
 .navbar-custom {
-  background-color: #000000; }
+  background-color: #06113C; }
 
 .title {
   color: #000000;
