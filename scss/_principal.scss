@@ -8,7 +8,7 @@ h1 {
     
   }
   body {
-    background-color:#06113C;
+    background-color:#ffffff;
     margin: 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -25,8 +25,8 @@ h1 {
     color: black;
   }
   .first-container {
-    background-color:#06113C;
-    color: white;
+    background-color:#354259;
+    color: #ffffff;
     padding: 50px 100px;
       h2{
         margin: 0;
@@ -44,7 +44,41 @@ h1 {
       font-style: italic;
     }
   }
-
+  .segunda-section-wrapper{
+    background-color: #354259;
+    .imagen-home{
+      width: 300px;
+      margin: 0 auto;
+      padding: 10px 20px;
+    }
+  }
+  .iconoHome{
+    width: 80px;
+    margin: 30px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    
+    }
+  .redeSociales-index{
+    width: 90%;
+    margin: 30px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+      .iconoRedes{
+        width: 50px;
+        height: 50px;
+      }
+  }
+  // MEDIAQUERIES INDEX
+  @media screen and (min-width: 425px) {
+    .imagen-home {
+      width: 150px;
+    }
+  }
+  
   /* NAVBAR */ 
   .navbar-custom {
     background-color:#06113C;
