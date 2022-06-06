@@ -72,6 +72,11 @@ h1 {
         height: 50px;
       }
   }
+
+  .parrafo-footer{
+    display: flex;
+    justify-content: flex-start;
+  }
   // MEDIAQUERIES INDEX
   @media screen and (min-width: 425px) {
     .imagen-home {

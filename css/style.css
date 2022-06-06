@@ -63,6 +63,10 @@ a {
     width: 50px;
     height: 50px; }
 
+.parrafo-footer {
+  display: flex;
+  justify-content: flex-start; }
+
 @media screen and (min-width: 425px) {
   .imagen-home {
     width: 150px; } }
