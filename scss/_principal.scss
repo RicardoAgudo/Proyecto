@@ -52,30 +52,13 @@ h1 {
       padding: 10px 20px;
     }
   }
-  .iconoHome{
-    width: 80px;
-    margin: 30px;
-    height: auto;
-    display: flex;
-    justify-content: flex-start;
-    
-    }
-  .redeSociales-index{
-    width: 90%;
-    margin: 30px;
-    height: auto;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-      .iconoRedes{
-        width: 50px;
-        height: 50px;
-      }
+  .icono-home{
+   height: 40px;
   }
-
-  .parrafo-footer{
-    display: flex;
-    justify-content: flex-start;
+  
+  .footer-wrapper{
+    background-color: #ECE5C7;
+    padding: 40px;
   }
   // MEDIAQUERIES INDEX
   @media screen and (min-width: 425px) {
