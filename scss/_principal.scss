@@ -1,3 +1,5 @@
+// Inicio
+
 h1 {
     color: #000000;
   }
@@ -45,6 +47,7 @@ h1 {
       font-style: italic;
     }
   }
+  // Segunda seccion
   .segunda-section-wrapper{
     background-color: #354259;
     .imagen-home{
@@ -53,18 +56,17 @@ h1 {
       padding: 10px 20px;
     }
   }
-  .icono-home{
-   height: 40px;
-  }
-  
-  .footer-wrapper{
-    background-color: #ECE5C7;
-    
-  }
+// Footer
   footer{
     padding: 40px;
   }
-  // MEDIAQUERIES INDEX
+
+  .footer-wrapper{
+    background-color: #ECE5C7;
+}
+  
+
+// MEDIAQUERIES INDEX
   @media screen and (min-width: 500px) {
     .imagen-home {
       width: 150px;

@@ -46,14 +46,11 @@ a {
     margin: 0 auto;
     padding: 10px 20px; }
 
-.icono-home {
-  height: 40px; }
+footer {
+  padding: 40px; }
 
 .footer-wrapper {
   background-color: #ECE5C7; }
-
-footer {
-  padding: 40px; }
 
 @media screen and (min-width: 500px) {
   .imagen-home {
@@ -118,7 +115,6 @@ footer {
   border: solid 1px #fff;
   border-radius: 5px;
   display: flex;
-  gap: 10px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
