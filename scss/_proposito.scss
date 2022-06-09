@@ -7,6 +7,10 @@
    width: $ancho;
   }
     
+.card{
+  border: none;
+}
+
 .card-group{
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
