@@ -7,15 +7,21 @@
     text-align: center;
   }
   .contactos-wrapper{
-    width: 600px;
+    width: 800px;
     border: solid 1px #fff;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 30px;
     background-color:#92B4EC ;
     box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8) 
+  }
+  .p-5{
+    margin: 5px;
+    
   }
 
   // Media Queries
