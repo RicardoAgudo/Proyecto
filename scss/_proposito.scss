@@ -1,6 +1,10 @@
-.title{
+.titulo-proposito{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
     color: $color-primary;
     text-align: center;
+    background-color:#92B4EC ;
   }
   @mixin size ($alto, $ancho) {
    height: $alto;

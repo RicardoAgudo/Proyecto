@@ -50,7 +50,7 @@ footer {
   padding: 40px; }
 
 .footer-wrapper {
-  background-color: #ECE5C7; }
+  background-color: #92B4EC; }
 
 @media screen and (min-width: 500px) {
   .imagen-home {
@@ -58,11 +58,15 @@ footer {
 
 /* NAVBAR */
 .navbar-custom {
-  background-color: #06113C; }
+  background-color: #069A8E; }
 
-.title {
+.titulo-galeria {
   color: #000000;
-  text-align: center; }
+  text-align: center;
+  padding: 20px;
+  margin: 25px;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+  background-color: #92B4EC; }
 
 .sub-paginas, .gallery-subprimario {
   color: #000000;
@@ -99,12 +103,16 @@ footer {
 .card {
   margin: 20px; }
 
-.title {
+.titulo-proyecto {
   color: #000000;
-  text-align: center; }
+  text-align: center;
+  padding: 20px;
+  margin: 25px;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+  background-color: #92B4EC; }
 
 .body-contactos {
-  background-color: #ECE5C7; }
+  background-color: #92B4EC; }
 
 .title {
   color: #000000;
@@ -118,7 +126,7 @@ footer {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  background-color: #ECE5C7;
+  background-color: #92B4EC;
   box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8); }
 
 @media screen and (max-width: 500px) {
@@ -137,9 +145,13 @@ footer {
 .red-whatsapp {
   color: #008800; }
 
-.title {
+.titulo-proposito {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
   color: #000000;
-  text-align: center; }
+  text-align: center;
+  background-color: #92B4EC; }
 
 .card {
   border: none; }
